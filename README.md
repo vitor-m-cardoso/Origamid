@@ -1,0 +1,22 @@
+# Repositorio criado para aulas e projetos da plataforma de cursos Origamid.
+
+- [ ] Web Design Completo;
+- [ ] CSS Flexbox;
+- [ ] CSS Grid Layout;
+- [ ] UI Design Avancado;
+- [ ] JavaScript Completo ES6;
+- [ ] WordPress Como CMS;
+- [ ] CSS Avancado Posicionamento;
+- [ ] React Completo;
+- [ ] WordPress REST API Dogs;
+- [ ] Redux com React;
+- [ ] Tipografia Avancada;
+- [ ] CSS com SASS;
+- [ ] UX Design Heuristicas;
+- [ ] Adobe XD;
+- [ ] Vue.js 2 Completo;
+- [ ] WordPress REST API;
+- [ ] WooCommerce Como CMS;
+- [ ] Bootstrap;
+- [ ] Automacao Front End com NPM;
+- [ ] JavaScript e jQuery.
