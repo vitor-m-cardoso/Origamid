@@ -9,6 +9,36 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+    <!-- modal -->
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginTitulo" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLoginTitulo">Faça login na conta.</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="inputLoginEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputLoginEmail">
+              </div>
+              <div class="mb-3">
+                <label for="inputPasswordLogin" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="inputPasswordLogin">
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary">Entrar na conta</button>
+              </div>
+              <small class="form-text">Esqueceu a senha? <a href="#">Clique aqui.</a></small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end modal -->
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
       <div class="container-fluid">
@@ -35,7 +65,7 @@
               <a class="nav-link" href="contato.html">Contato</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
             </li>
             <li class="nav-item">
               <a class="btn btn-outline-primary ms-md-2" href="inscricao.html">Inscreva-se</a>
@@ -44,6 +74,8 @@
         </div>
       </div>
     </nav>
+    <!-- end navbar -->
+
     <!-- carousel section -->
     <section class="container-fluid">
       <div class="row bg-dark text-white">
@@ -96,6 +128,8 @@
         </div>
       </div>
     </section>
+    <!-- end carousel section -->
+
     <!-- benefits section -->
     <section class="py-5 bg-light text-center">
       <div class="container">
@@ -150,6 +184,8 @@
         <a href="planos.html" class="btn btn-primary btn-lg mt-4">Comprar Plano</a>
       </div>
     </section>
+    <!-- end benefits section -->
+
     <!-- image blockquote section -->
     <section id="home-quote" class="p-md-5">
       <blockquote class="blockquote text-center text-white p-md-5 p-3">
@@ -161,6 +197,8 @@
         <footer class="blockquote-footer text-white">Bob Dylan</footer>
       </blockquote>
     </section>
+    <!-- end image blockquote section -->
+
     <!-- common questions section -->
     <section class="container">
       <div class="my-5 text-center">
@@ -221,6 +259,8 @@
         <a class="btn btn-primary btn-lg" href="contato.html">Entre em Contato</a>
       </div>
     </section>
+    <!-- end common questions section -->
+
     <!-- footer section -->
     <footer class="bg-dark text-white">
       <div class="container py-4">
@@ -263,6 +303,7 @@
         <p class="mb-0">Vitor Cardoso © 2021. Alguns direitos reservados.</p>
       </div>
     </footer>
+    <!-- end footer section -->
 
     <script type="text/javascript" src="./bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script>
 
