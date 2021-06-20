@@ -17,6 +17,6 @@
 - [ ] Vue.js 2 Completo;
 - [ ] WordPress REST API;
 - [ ] WooCommerce Como CMS;
-- [ ] Bootstrap;
+- [X] Bootstrap;
 - [ ] Automacao Front End com NPM;
 - [ ] JavaScript e jQuery.
